@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div>
-      <Header />
+    <div className='container-fluid'>
+         <Header />
     </div>
   );
 };

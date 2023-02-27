@@ -1,11 +1,15 @@
 import React from 'react';
-import Nav from '../Nav';
+import NavBar from '../Nav';
 
 export default function Header() {
   return(
-    <header>
-      <h1>Khyan Alvarez</h1>
-      <Nav />
-    </header>
+    <div className='row'>
+      <div className='text-orange col-3'>
+        <h1>Khyan Alvarez</h1>
+      </div>
+      <div className='col-11 w-75'>
+        <NavBar />
+      </div>
+    </div>
   );
 };

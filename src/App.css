@@ -1,3 +1,25 @@
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --pink: #F564A9;
+  --orange: #E35C3B;
+  --jet: #303036;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.text-pink {
+  color: var(--pink);
+}
+
+.text-orange {
+  color: var(--orange)
+}
+
+.link {
+  text-decoration: none;
+}

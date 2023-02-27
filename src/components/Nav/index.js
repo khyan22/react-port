@@ -1,20 +1,20 @@
 import React from 'react';
 
-export default function Nav() {
+export default function NavBar() {
   return(
-    <nav>
-      <ul>
-        <li>
-          <a href='#about'>About</a>
+    <nav className='nav'>
+      <ul className='row w-100'>
+        <li className='col-3'>
+          <a href='#about' className='link text-pink'>About</a>
         </li>
-        <li>
-          <a href='#projects'>Projects</a>
+        <li className='col-3'>
+          <a href='#projects' className='link text-pink'>Projects</a>
         </li>
-        <li>
-          <a href='#resume'>Resume</a>
+        <li className='col-3'>
+          <a href='#resume' className='link text-pink'>Resume</a>
         </li>
-        <li>
-          <a href='#Contact'>Contact Me</a>
+        <li className='col-3'>
+          <a href='#contact' className='link text-pink'>Contact Me</a>
         </li>
       </ul>
     </nav>
